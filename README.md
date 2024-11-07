@@ -1,52 +1,52 @@
 # Supermarket Sales Dashboard
 
-Este projeto é um dashboard interativo desenvolvido com Python e Dash para visualização e análise de dados de vendas de um supermercado fictício. A interface permite explorar informações como receita bruta e avaliações, filtradas por cidade, gênero e método de pagamento.
+This project is an interactive dashboard developed with Python and Dash for visualizing and analyzing sales data from a fictitious supermarket. The interface allows exploration of information such as gross income and ratings, filtered by city, gender, and payment method.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - **Python 3.7+**
-- **Dash** (com Dash Bootstrap Components para estilização)
-- **Plotly** para gráficos interativos
-- **Pandas** e **NumPy** para manipulação de dados
+- **Dash** (with Dash Bootstrap Components for styling)
+- **Plotly** for interactive charts
+- **Pandas** and **NumPy** for data manipulation
 
-## Estrutura do Projeto
+## Project Structure
 
-- `app.py`: Código principal do dashboard, configurado para criar e renderizar gráficos com base nos dados de vendas.
-- `dataset/supermarket_sales.csv`: Dataset público utilizado para análise, que deve estar localizado na pasta `dataset`.
-- `requirements.txt`: Bibliotecas necessárias para rodar o projeto.
+- `app.py`: Main code of the dashboard, configured to create and render charts based on sales data.
+- `dataset/supermarket_sales.csv`: Public dataset used for analysis, which should be located in the `dataset` folder.
+- `requirements.txt`: Libraries needed to run the project.
 
-## Instruções de Instalação e Execução
+## Installation and Execution Instructions
 
-1. **Clone o repositório**:
+1. **Clone the repository**:
     ```bash
     git clone https://github.com/bewillecke/supermarket-sales-dashboard.git
     ```
-2. **Instale as dependências**:
-    Acesse o diretório do projeto e instale as bibliotecas necessárias:
+2. **Install dependencies**:
+    Navigate to the project directory and install the required libraries:
     ```bash
     pip install -r requirements.txt
     ```
-3. **Estrutura de Pastas**:
-    Certifique-se de que o dataset (`supermarket_sales.csv`) esteja na seguinte estrutura:
+3. **Folder Structure**:
+    Ensure that the dataset (`supermarket_sales.csv`) is in the following structure:
     ```
     supermarket-sales-dashboard/
     ├── app.py
     └── dataset/
         └── supermarket_sales.csv
     ```
-4. **Execute o aplicativo**:
-    No diretório raiz do projeto, execute o comando:
+4. **Run the application**:
+    In the project root directory, run the command:
     ```bash
     python app.py
     ```
-5. **Acesse o dashboard**:
-    Abra o navegador e acesse o endereço [http://localhost:8050](http://localhost:8050) para visualizar o dashboard.
+5. **Access the dashboard**:
+    Open your browser and go to [http://localhost:8050](http://localhost:8050) to view the dashboard.
 
-## Observações
+## Notes
 
-- **Porta**: O servidor está configurado para rodar na porta `8050`. Para modificar a porta, altere o valor no arquivo `app.py`.
-- **Modo Debug**: Por segurança, o modo debug está desativado para esta versão. Para ativá-lo, altere a linha `debug=False` para `debug=True` em `app.py`.
+- **Port**: The server is configured to run on port `8050`. To modify the port, change the value in the `app.py` file.
+- **Debug Mode**: For security, debug mode is disabled in this version. To enable it, change `debug=False` to `debug=True` in `app.py`.
 
 ---
 
-Este projeto foi desenvolvido como parte de um estudo de análise de dados, visualização de dados e construção de webapps utilizando o Dash e pode ser adaptado para outras finalidades.
+This project was developed as part of a study in data analysis, data visualization, and building web apps using Dash and can be adapted for other purposes.
